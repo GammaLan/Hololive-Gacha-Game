@@ -77,7 +77,9 @@ function getRandomCard() {
 		//Create an image element and put it into the website. (Help from w3schools.com)
 		card = document.createElement("IMG");
 		//Put attributes on the image element. Includes the source, width, id, and class.
-		card.setAttribute("src",cards[list][num] + '.png')
+		//card.setAttribute("src",cards[list][num] + '.png') - original piece of code (changed because directory would be really unorganized without it)
+		card.setAttribute("src","pics/" + cards[list][num] + '.png')
+		
 		card.setAttribute("width", "100");
 		card.setAttribute("id", cards[list][num]);
 		card.setAttribute("class", "none");
@@ -104,4 +106,5 @@ function getRandomCard() {
 		}
 	}
 	showCard(card);
+
 }
