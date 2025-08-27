@@ -1,0 +1,28 @@
+body{
+	background-color: lightblue;
+}
+#gachacard{
+	cursor: pointer;
+}
+#cardcontainer,#gacha{
+	border: black 2px solid;
+	text-align: center;
+}
+.cardrow{
+	border-top: black 2px solid;
+}
+
+img{
+	display: inline-flex;
+	
+	margin: 10px;
+	border: black 5px groove;
+	border-radius: 25px;
+	
+	
+}
+
+h1{
+	text-align: center;
+	
+}
